@@ -17,7 +17,15 @@ namespace HTML_Fundamental.Controllers
         {
             return View();
         }
+        public IActionResult Blog()
+        {
+            return View();
+        }
 
+        public IActionResult Challange()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
