@@ -2,6 +2,8 @@
     <link rel="stylesheet" href="~/css/style.css" />
 }
 
+<div class="container">
+
 <header class="Main-header">
     <h1>📘 The Code Magazine</h1>
 
@@ -9,22 +11,20 @@
         <a asp-action="Blog">Blog</a>
         <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">W3 School</a>
         <a asp-action="">Challenge</a>
-        <a asp-action="">FlexBox</a>
-        <a asp-action="">CSS Grid</a>
     </nav>
 </header>
 
 <article>
-    <header>
+    <header class="post-header">
         <h2>The Basic Language of the Web: HTML</h2>
 
-        <img src="~/images/personal Image.jpg" alt="Girl Image" width="60" height="50" />
+        <img src="~/images/personal Image.jpg"  alt="Girl Image" width="60" height="50" />
 
         <p class="author">
             Posted by <strong>Hamza khan</strong> on Monday, June 21st 2027
         </p>
 
-        <img src="~/images/post-img.jpg" alt="HTML Code on The Screen" width="500" height="200" />
+        <img src="~/images/post-img.jpg" class="post-img" alt="HTML Code on The Screen" width="500" height="200" />
     </header>
     <p>
         All modern websites and web applications are built using three
@@ -106,9 +106,6 @@
     <p class="footer"> Copyright &copy; 2025 by Dual Squad</p>
 </footer>
 
-<a href="https://www.w3schools.com/html/html_lists.asp">
-<img src="/images/personal Image.jpg" alt="Alternate Text" width="175" height="175"/>
-</a>
-<br />
+<button class="heart-button">❤️ Like</button>
 
-<button onclick="https://www.w3schools.com/html/html_lists.asp">Click Here</button>
+</div>

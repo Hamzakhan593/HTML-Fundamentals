@@ -1,0 +1,124 @@
+﻿
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    font-family: sans-serif;
+    border: 2px solid black;
+    line-height: 1.5;
+    width: 825px;
+    margin: 0 auto;
+    position: relative;
+}
+body{
+    margin-top: 20px
+}
+
+h1{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.price{
+    font-size: 20px;
+    color:black;
+    margin-bottom: 0;
+}
+
+.shipping {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style: square;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border-top: 4px solid black;
+}
+
+button:hover {
+    color: black;
+    background-color: #f7f7f7;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 15px
+}
+li{
+    margin-bottom: 10px;
+}
+.box {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
+
+
+.sale {
+    text-transform: uppercase;
+    color: #444;
+    background-color: yellow;
+    font-size: 15px;
+    padding: 5px 5px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: -22px;
+    letter-spacing: 2px;
+}
+
+
+
+
