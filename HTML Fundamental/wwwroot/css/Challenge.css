@@ -1,58 +1,61 @@
-﻿
-*{
+﻿* {
     margin: 0;
     padding: 0;
-}
-.container {
-    font-family: sans-serif;
-    border: 2px solid black;
-    line-height: 1.5;
-    width: 825px;
-    margin: 0 auto;
-    position: relative;
-}
-body{
-    margin-top: 20px
+/*    box-sizing: border-box;*/
 }
 
-h1{
+body {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.Big-container {
+    border: solid 2px black;
+    line-height: 1.5;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+
+h1 {
     background-color: #f7f7f7;
     text-align: center;
     padding: 15px 0;
 }
 
-h1,h2{
+h1, h2 {
     text-transform: uppercase;
     font-size: 22px;
 }
 
-h2{
+h2 {
     margin-top: 20px;
 }
 
-.price{
+.price {
     font-size: 20px;
-    color:black;
-    margin-bottom: 0;
+    color: black;
+
 }
 
 .shipping {
     text-transform: uppercase;
     font-size: 12px;
     color: #777;
-    margin-bottom: 20px;
 }
 
-
-
-a:link, a:visited, a:hover, a:active {
+a {
     color: black;
-}
-a:hover{
-    text-decoration:none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-ul{
+    a:hover {
+        text-decoration: underline;
+    }
+
+ul {
     list-style: square;
     margin-left: 50px;
     margin-bottom: 15px;
@@ -68,24 +71,63 @@ ul{
     width: 100%;
     padding: 15px;
     border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    /*    margin-top: 15px;*/
 }
 
-button:hover {
-    color: black;
-    background-color: #f7f7f7;
-}
-p{
+    .button:hover {
+        color: black;
+        background-color: #f7f7f7;
+    }
+
+p {
     line-height: 1.5;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
-li{
+
+li {
     margin-bottom: 10px;
 }
+
+/* FLEXBOX CONTAINER */
+.flex-container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Image Container */
+.image-container {
+    flex: 0 0 auto; 
+}
+
+/* Price & Details - Take up remaining space */
+.price-information,
+.product-detail {
+/*    flex: 1; */
+}
+
+/* Price and Shipping in one row */
+.price-flex {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Color Options */
+.color-boxes {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
 .box {
     width: 25px;
     height: 25px;
-    margin-right: 5px;
-    display: inline-block;
+/*    display: inline-block;*/
+    border: 1px solid #000;
 }
 
 .red {
@@ -95,16 +137,18 @@ li{
 .green {
     background-color: green;
 }
+
 .yellow {
     background-color: yellow;
 }
+
 .blue {
     background-color: blue;
 }
+
 .black {
     background-color: black;
 }
-
 
 .sale {
     text-transform: uppercase;
@@ -118,7 +162,3 @@ li{
     left: -22px;
     letter-spacing: 2px;
 }
-
-
-
-

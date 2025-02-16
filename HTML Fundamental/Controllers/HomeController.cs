@@ -26,6 +26,16 @@ namespace HTML_Fundamental.Controllers
         {
             return View();
         }
+
+        public IActionResult practice()
+        {
+            return View();
+        }
+
+        public IActionResult FlexBox()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

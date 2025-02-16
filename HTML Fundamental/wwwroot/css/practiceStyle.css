@@ -1,0 +1,65 @@
+﻿
+
+
+.color-container {
+    width: 500px;
+    height: 300px;
+    background-color: #ddd;
+    margin: 40px;
+    font-size: 34px;
+    font-family: sans-serif;
+    /* flexbox   */
+    display: flex;
+    /* Align Items Horizontally   */
+    /*    align-items: flex-start;*/
+    /*    align-items: flex-end;*/
+    /*    align-items: baseline;*/
+    /*    align-items: stretch;*/
+    align-items: center;
+
+    /* Align Items vertically   */
+    /*    flex-direction: row;*/
+    /*    flex-direction: row-reverse;*/
+    /*    flex-direction: column;*/
+    /*    flex-direction: column-reverse;*/
+
+
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.color {
+/*    width: auto;*/
+/*    height: auto;*/
+    flex-basis: 100px;
+}
+
+.red {
+    background-color: red;
+    align-self: flex-end;
+/*    flex-grow: 10;*/
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    align-self: stretch;
+/*    order: -1;*/
+}
+
+.black {
+    background-color: black;
+    align-self: flex-start;
+/*    order: -2;*/
+}
+
+.blueV {
+    background-color: blueviolet;
+}
+
+.blue {
+    background-color: blue;
+}
